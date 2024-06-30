@@ -1,0 +1,66 @@
+*{
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.headtext{
+    background-color: brown;
+    color: wheat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.mainhead{
+    flex: 1;
+    display: flex;
+   
+
+}
+
+.sidenav{
+    background-color: aqua;
+    flex: 1 1  5rem;
+   
+    
+}
+
+.theblog{
+    
+    background-color: teal;
+    color: white;
+    flex: 3 3 5rem;
+   
+ 
+}
+
+.aside1{
+    background-color: violet;
+ 
+    flex: 1 1  5rem;
+   
+
+}
+
+footer{
+    background-color: brown;
+    color: wheat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 600px) {
+    .mainhead {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  
